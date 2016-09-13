@@ -43,3 +43,7 @@ gem 'spring',        group: :development
 gem 'omniauth'
 # どのような形式で認証するか
 gem 'omniauth-twitter'
+
+#Kaminariページネーション機能
+gem 'kaminari', '~> 0.15.1'
+gem 'kaminari-bootstrap', '~> 3.0.1'
