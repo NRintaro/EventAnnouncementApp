@@ -39,6 +39,7 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # ファイルを共有 今いるディレクトを共有./
+  # カレントディレクト=VirtualBoxのvagrant_dataディレクトリとする
   config.vm.synced_folder "./", "/vagrant_data"
 
   # Provider-specific configuration so you can fine-tune various
