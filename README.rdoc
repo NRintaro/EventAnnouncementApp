@@ -1,3 +1,3 @@
 hubコマンド
   ターミナルからプルリクを作成する
-    from topic-hub-test
+    from topic-hub-test-second
